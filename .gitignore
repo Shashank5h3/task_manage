@@ -1,0 +1,31 @@
+# Virtual Environment
+virtual_env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Database
+db.sqlite3
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage
+htmlcov/
+.coverage
+
+# Pytest
+.pytest_cache/
+
+# Migrations
+**/__pycache__
