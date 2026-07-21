@@ -1,4 +1,4 @@
-from rest_framework.permissions import BasePermission
+from rest_framework.permissions import BasePermission # by using this we can create our own permissions
 
 
 class IsAdminOrOwner(BasePermission):

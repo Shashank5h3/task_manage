@@ -1,7 +1,7 @@
 from django.urls import path
 from rest_framework_simplejwt.views import (  # type: ignore[import]
-    TokenObtainPairView,
-    TokenRefreshView,
+    TokenObtainPairView, # it checks whether the user is valid or not and returns the access and refresh token
+    TokenRefreshView, # when the access token expires, we can use the refresh token to get a new access token
 )
 
 from .views import RegisterView, ProfileView

@@ -10,7 +10,7 @@ class Task(models.Model):
 
     owner = models.ForeignKey(
         User,
-        on_delete=models.CASCADE,
+        on_delete=models.CASCADE, # if user is deleted then all the tasks related to that user will be deleted
         related_name="tasks"
     )
 
