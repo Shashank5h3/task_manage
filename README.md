@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 # 📋 Task Manager REST API
 
 A **Task Manager REST API** built using **Django REST Framework (DRF)** that provides secure **JWT-based authentication** and **Role-Based Access Control (RBAC)** for managing tasks.
